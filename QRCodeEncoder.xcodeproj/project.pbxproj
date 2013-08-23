@@ -18,12 +18,12 @@
 		05947CE117C7403F00AE32A8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05947CE017C7403F00AE32A8 /* Default-568h@2x.png */; };
 		05947CF817C7411C00AE32A8 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 05947CE817C7411C00AE32A8 /* bitstream.c */; };
 		05947CF917C7411C00AE32A8 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 05947CEA17C7411C00AE32A8 /* mask.c */; };
-		05947CFA17C7411C00AE32A8 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 05947CED17C7411C00AE32A8 /* QRCodeGenerator.m */; };
 		05947CFB17C7411C00AE32A8 /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 05947CEE17C7411C00AE32A8 /* qrencode.c */; };
 		05947CFC17C7411C00AE32A8 /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 05947CF017C7411C00AE32A8 /* qrinput.c */; };
 		05947CFD17C7411C00AE32A8 /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 05947CF217C7411C00AE32A8 /* qrspec.c */; };
 		05947CFE17C7411C00AE32A8 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 05947CF417C7411C00AE32A8 /* rscode.c */; };
 		05947CFF17C7411C00AE32A8 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 05947CF617C7411C00AE32A8 /* split.c */; };
+		05947D0217C7494500AE32A8 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 05947D0117C7494500AE32A8 /* QRCodeGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,8 +44,6 @@
 		05947CE917C7411C00AE32A8 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
 		05947CEA17C7411C00AE32A8 /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
 		05947CEB17C7411C00AE32A8 /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
-		05947CEC17C7411C00AE32A8 /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
-		05947CED17C7411C00AE32A8 /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
 		05947CEE17C7411C00AE32A8 /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
 		05947CEF17C7411C00AE32A8 /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
 		05947CF017C7411C00AE32A8 /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
@@ -56,6 +54,8 @@
 		05947CF517C7411C00AE32A8 /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
 		05947CF617C7411C00AE32A8 /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
 		05947CF717C7411C00AE32A8 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		05947D0017C7494500AE32A8 /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
+		05947D0117C7494500AE32A8 /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				05947CE717C7411C00AE32A8 /* QRCodeEncoderGitHub */,
+				05947D0017C7494500AE32A8 /* QRCodeGenerator.h */,
+				05947D0117C7494500AE32A8 /* QRCodeGenerator.m */,
 				05947CD917C7403F00AE32A8 /* AppDelegate.h */,
 				05947CDA17C7403F00AE32A8 /* AppDelegate.m */,
 				05947CD117C7403F00AE32A8 /* Supporting Files */,
@@ -131,8 +133,6 @@
 				05947CE917C7411C00AE32A8 /* bitstream.h */,
 				05947CEA17C7411C00AE32A8 /* mask.c */,
 				05947CEB17C7411C00AE32A8 /* mask.h */,
-				05947CEC17C7411C00AE32A8 /* QRCodeGenerator.h */,
-				05947CED17C7411C00AE32A8 /* QRCodeGenerator.m */,
 				05947CEE17C7411C00AE32A8 /* qrencode.c */,
 				05947CEF17C7411C00AE32A8 /* qrencode.h */,
 				05947CF017C7411C00AE32A8 /* qrinput.c */,
@@ -216,12 +216,12 @@
 				05947CDB17C7403F00AE32A8 /* AppDelegate.m in Sources */,
 				05947CF817C7411C00AE32A8 /* bitstream.c in Sources */,
 				05947CF917C7411C00AE32A8 /* mask.c in Sources */,
-				05947CFA17C7411C00AE32A8 /* QRCodeGenerator.m in Sources */,
 				05947CFB17C7411C00AE32A8 /* qrencode.c in Sources */,
 				05947CFC17C7411C00AE32A8 /* qrinput.c in Sources */,
 				05947CFD17C7411C00AE32A8 /* qrspec.c in Sources */,
 				05947CFE17C7411C00AE32A8 /* rscode.c in Sources */,
 				05947CFF17C7411C00AE32A8 /* split.c in Sources */,
+				05947D0217C7494500AE32A8 /* QRCodeGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +338,7 @@
 				05947CE617C7403F00AE32A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
