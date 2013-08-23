@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
     spec.homepage     = 'https://github.com/fox3000wang/QRCodeEncoder'
     spec.author       = { 'NoName' => 'NoName@gmail.com' }
     spec.source       = { :git => 'https://github.com/fox3000wang/QRCodeEncoder.git',
-                          :tag => '80a5af09041673de6bdbd72fb93c9b95bf1b439e' }
+                          :tag => '80a5af09041673de6bdbd72fb93c9b95bf1b4391' }
     spec.source_files = 'QRCodeEncoderGitHub/**/*.{h,m,mm,cpp}'
     spec.requires_arc = false
 end
